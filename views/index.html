@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title></title>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/css/styleF.css">
+</head>
+<body>
+   
+      <div class="name">
+        <img src="/images/logo.jpg" width="100px" height="100px;">
+  
+    </div>
+    <div class="upload">
+      <form action="">
+        <div class="drag-area">
+            <img src="/images/file-transfer.svg" class="logo">
+</div>
+<input type=file id="fileInput">
+<div class="title">Drop your Files here or, <span id="browseBtn">browse</span></div>
+
+          
+      </form>
+      <div class="links">
+        <input type="text" id="fileUrl" readonly>
+        <img src="/images/copy-icon.svg" class="copy">
+      </div>
+          <div class="progress">
+          <div class="bg-progress">
+            <div class="inner-container">
+                <div class="status">Uploading...</div>
+                <div class="percent-container">
+                    <span class="percentage" id="progressPercent">0</span>%
+                </div>
+                <div class="progress-bar"></div>
+          </div>
+          
+        </div>
+      </div>
+      
+          
+    </div>
+</body>
+<script src="/index.js">
+  
+</script>
+</html>
