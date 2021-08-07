@@ -34,7 +34,7 @@ router.post('/',(req,res)=>{
                 size:req.file.size
             });
             const response=await file.save();
-            return res.json({file:`${"http://localhost:3000"}/files/${response.uuid}`});
+            return res.json({file:`${"https://filegoproject.herokuapp.com"}/files/${response.uuid}`});
         })
    
    
